@@ -93,7 +93,7 @@ body{
     background-color: #17202A;
     display: inline-block;
     width: 100%;
-    height: 6vh;
+    height: 7vh;
 }
 .social a{
     float: right;
@@ -168,13 +168,127 @@ body{
     71% {margin-top:0px;}
     100% {margin-top:0px;}
 }
-
-@media only screen and (max-width:426px){
+@media only screen and (max-width:769px){
     .menu a{
-        font-size: 10px;
+    font-size: 20px;
     }
     .menu h1{
         color: white;
+        
+    }
+    .home{
+        
+        background: url('/spd/pics/logo.png'),#1C2833;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .home h1{
+        font-family:inherit;
+        font-size: 35px;
+        width: 100%;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 36vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        letter-spacing: 2px;
+    }
+    .home p{
+        font-family: inherit;
+        font-size: 50px;
+        width: 100%;
+        color:#E55968;
+        padding-top: 0;
+        padding-left: 2vh;
+        letter-spacing: 2px;
+    }
+    .projects{
+
+        background-color: #58D68D;
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+    }
+    .projects h1{
+        font-family: inherit;
+        padding-left: 6vh;
+        padding-top: 50px;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .photography{
+        background-color:#8E44AD;
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+    }
+    .photography h1{
+        font-family: inherit;
+        padding-left: 6vh;
+        padding-top: 50px;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .content {
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: left;
+    }
+    .slider-wrapper {
+        font-size: 35px;
+        color:#aaa;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 2vh;
+    }
+    .slider{
+        height: 50px;
+        padding-left: 15px;
+        overflow: hidden;
+    }
+    .slider div {
+        color:#e0a557;
+        height: 50px;
+        margin-bottom: 50px;
+        padding: 4px 15px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .slider-text1 {
+        background: transparent;
+        animation: slide 5s linear infinite;
+    }
+    .slider-text2 {
+        background:transparent;
+    }
+    .slider-text3 {
+        background:transparent;
+    }
+    @keyframes slide {
+        0% {margin-top:-300px;}
+        5% {margin-top:-200px;}
+        33% {margin-top:-200px;}
+        38% {margin-top:-100px;}
+        66% {margin-top:-100px;}
+        71% {margin-top:0px;}
+        100% {margin-top:0px;}
+    }
+}
+@media only screen and (max-width:426px){
+    .menu a{
+        font-size: 15px;
+    }
+    .menu h1{
+        color: white;
+        font-size: 25px;
     }
     .home{
         background: url('/spd/pics/logo.png'),#1C2833;
@@ -231,6 +345,35 @@ body{
         font-size: 2em;
         letter-spacing: 2px;
     }
+    .social{
+        background-color: #17202A;
+        display: inline-block;
+        width: 100%;
+        height: 7vh;
+    }
+    .social a{
+        float: right;
+        padding-top: 1vh;
+        letter-spacing: 20px;
+        font-size: 30px;
+        color: #0177B5 ;
+        text-decoration: none;
+    }
+    .social a:nth-child(2){
+        color: white;
+    }
+    .social a:nth-child(3){
+        color: #EE4B5F;
+    }
+    .social a:nth-child(4){
+        color: #000;
+    }
+    .social small{
+        padding-top: 2.5vh;
+        padding-right: 30px;
+        float:right;
+        color: white;
+    }
     .content {
         width: 100vw;
         height: 100vh;
@@ -253,7 +396,7 @@ body{
         overflow: hidden;
     }
     .slider div {
-        color:#fff;
+        color:#e0a557;
         height: 50px;
         margin-bottom: 50px;
         padding: 10px 15px;
@@ -394,10 +537,11 @@ body{
 }*/
 @media only screen and (max-width:376px){
     .menu a{
-        font-size: 10px;
+        font-size: 15px;
     }
     .menu h1{
         color: white;
+        font-size: 25px;
         
     }
     .home{
@@ -411,7 +555,7 @@ body{
     }
     .home h1{
         font-family:inherit;
-        font-size: 20px;
+        font-size: 25px;
         width: 100%;
         color: white;
         align-items: center;
@@ -423,7 +567,7 @@ body{
     }
     .home p{
         font-family: inherit;
-        font-size: 34px;
+        font-size: 40px;
         width: 100%;
         color:#E55968;
         padding-top: 0;
@@ -457,6 +601,35 @@ body{
         font-size: 2em;
         letter-spacing: 2px;
     }
+    .social{
+        background-color: #17202A;
+        display: inline-block;
+        width: 100%;
+        height: 7vh;
+    }
+    .social a{
+        float: right;
+        padding-top: 1vh;
+        letter-spacing: 20px;
+        font-size: 30px;
+        color: #0177B5 ;
+        text-decoration: none;
+    }
+    .social a:nth-child(2){
+        color: white;
+    }
+    .social a:nth-child(3){
+        color: #EE4B5F;
+    }
+    .social a:nth-child(4){
+        color: #000;
+    }
+    .social small{
+        padding-top: 2.5vh;
+        padding-right: 25px;
+        float:right;
+        color: white;
+    }
     .content {
         width: 100vw;
         height: 100vh;
@@ -464,7 +637,7 @@ body{
         justify-content: left;
     }
     .slider-wrapper {
-        font-size: 20px;
+        font-size: 24px;
         color:#aaa;
         font-weight: bold;
         text-transform: uppercase;
@@ -479,7 +652,7 @@ body{
         overflow: hidden;
     }
     .slider div {
-        color:#fff;
+        color:#e0a557;
         height: 50px;
         margin-bottom: 50px;
         padding: 13px 15px;
@@ -505,7 +678,150 @@ body{
         71% {margin-top:0px;}
         100% {margin-top:0px;}
     }
-}/*
+}
+@media only screen and (max-width:321px){
+    .menu a{
+        font-size: 13px;
+    }
+    .menu h1{
+        color: white;
+        font-size: 20px;
+        
+    }
+    .home{
+        background: url('/spd/pics/logo.png'),#1C2833;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .home h1{
+        font-family:inherit;
+        font-size: 20px;
+        width: 100%;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 38vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        letter-spacing: 2px;
+    }
+    .home p{
+        font-family: inherit;
+        font-size: 34px;
+        width: 100%;
+        color:#E55968;
+        padding-top: 0;
+        padding-left: 2vh;
+        letter-spacing: 2px;
+    }
+    .projects{
+        background-color: #58D68D;
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+    }
+    .projects h1{
+        font-family: inherit;
+        padding-left: 6vh;
+        padding-top: 50px;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .photography{
+        background-color:#8E44AD;
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+    }
+    .photography h1{
+        font-family: inherit;
+        padding-left: 6vh;
+        padding-top: 50px;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+    .social{
+        background-color: #17202A;
+        display: inline-block;
+        width: 100%;
+        height: 6vh;
+    }
+    .social a{
+        float: right;
+        padding-top: 1.5vh;
+        letter-spacing: 20px;
+        font-size: 21px;
+        color: #0177B5 ;
+        text-decoration: none;
+    }
+    .social a:nth-child(2){
+        color: white;
+    }
+    .social a:nth-child(3){
+        color: #EE4B5F;
+    }
+    .social a:nth-child(4){
+        color: #000;
+    }
+    .social small{
+        padding-top: 2.2vh;
+        padding-left: 1px;
+        float:right;
+        color: white;
+    }
+    .content {
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: left;
+    }
+    .slider-wrapper {
+        font-size: 20px;
+        color:#aaa;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 2vh;
+    }
+    .slider{
+        height: 50px;
+        padding-left: 15px;
+        overflow: hidden;
+    }
+    .slider div {
+        color:#e0a557;
+        height: 50px;
+        margin-bottom: 50px;
+        padding: 13px 15px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .slider-text1 {
+        background: transparent;
+        animation: slide 5s linear infinite;
+    }
+    .slider-text2 {
+        background: transparent;
+    }
+    .slider-text3 {
+        background: transparent;
+    }
+    @keyframes slide {
+        0% {margin-top:-300px;}
+        5% {margin-top:-200px;}
+        33% {margin-top:-200px;}
+        38% {margin-top:-100px;}
+        66% {margin-top:-100px;}
+        71% {margin-top:0px;}
+        100% {margin-top:0px;}
+    }
+}
+/*
 @media only screen and (max-width:769px){
     .menu a{
     font-size: 10px;

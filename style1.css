@@ -214,9 +214,9 @@ body{
     }
     .projects h1{
         font-family: inherit;
-        padding-left: 100px;
-        padding-top: 150px;
-        font-size: 6em;
+        padding-left: 6vh;
+        padding-top: 50px;
+        font-size: 2em;
         letter-spacing: 2px;
     }
     .photography{
@@ -227,9 +227,9 @@ body{
     }
     .photography h1{
         font-family: inherit;
-        padding-left: 100px;
-        padding-top: 150px;
-        font-size: 6em;
+        padding-left: 6vh;
+        padding-top: 50px;
+        font-size: 2em;
         letter-spacing: 2px;
     }
     .content {

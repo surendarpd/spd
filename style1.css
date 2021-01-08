@@ -12,15 +12,7 @@ body{
     /* background-color: black; */
     width: 100%;
 }
-.logo{
-    padding-top: 15px;
-    width: 70px;
-    height: 70px;
-    padding-left: -3px;
-}
-.logo h1{
-    padding-left: 30px;
-}
+
 .menu{
     display: flex;
     position: fixed;
@@ -177,7 +169,10 @@ body{
     100% {margin-top:0px;}
 }
 
-@media only screen and (min-width:246px){
+@media only screen and (max-width:426px){
+    .menu{
+        display: none;
+    }
     .home{
         /* background: url('C:/spd/pics/logo.png'), linear-gradient(to bottom left, white 50%,#1C2833  50%); */
         background: url('/spd/pics/logo.png'),#1C2833;
@@ -192,17 +187,20 @@ body{
         font-size: 30px;
         width: 100%;
         color: white;
-        padding-top: 25vh;
-        padding-left: 7vh;
+        align-items: center;
+        justify-content: center;
+        padding-top: 35vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
         letter-spacing: 2px;
     }
     .home p{
         font-family: inherit;
-        font-size: 70px;
+        font-size: 60px;
         width: 100%;
         color:#E55968;
         padding-top: 0;
-        padding-left: 7vh;
+        padding-left: 2vh;
         letter-spacing: 2px;
     }
     .projects{
@@ -241,14 +239,14 @@ body{
         justify-content: left;
     }
     .slider-wrapper {
-        font-size: 40px;
+        font-size: 20px;
         color:#aaa;
         font-weight: bold;
         text-transform: uppercase;
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        padding-left: 7vh;
+        padding-left: 4vh;
     }
     .slider{
         height: 50px;
@@ -259,7 +257,7 @@ body{
         color:#fff;
         height: 50px;
         margin-bottom: 50px;
-        padding: 2px 15px;
+        padding: 1px 15px;
         text-align: center;
         box-sizing: border-box;
     }

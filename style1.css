@@ -555,7 +555,7 @@ body{
     }
     .home h1{
         font-family:inherit;
-        font-size: 25px;
+        font-size: 20px;
         width: 100%;
         color: white;
         align-items: center;
@@ -567,7 +567,7 @@ body{
     }
     .home p{
         font-family: inherit;
-        font-size: 40px;
+        font-size: 35px;
         width: 100%;
         color:#E55968;
         padding-top: 0;
@@ -637,7 +637,7 @@ body{
         justify-content: left;
     }
     .slider-wrapper {
-        font-size: 24px;
+        font-size: 20px;
         color:#aaa;
         font-weight: bold;
         text-transform: uppercase;

@@ -39,7 +39,8 @@ body{
     
 }
 .home{
-    background: url('C:/spd/pics/logo.png'), linear-gradient(to bottom left, white 50%,#1C2833  50%);
+    /* background: url('C:/spd/pics/logo.png'), linear-gradient(to bottom left, white 50%,#1C2833  50%); */
+    background: url('/pics/logo.png'), linear-gradient(to bottom left, white 50%,#1C2833  50%);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;

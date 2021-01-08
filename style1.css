@@ -31,16 +31,19 @@ body{
 
 }
 .menu a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     font-weight: 300;
     padding: 15px 0;
     
 }
+.menu h1{
+    color: white;
+}
 .home{
     /* background: url('C:/spd/pics/logo.png'), linear-gradient(to bottom left, white 50%,#1C2833  50%); */
-    background: url('/pics/logo.png'), linear-gradient(to bottom left, white 50%,#1C2833  50%);
+    background: url('/spd/pics/logo.png'),#1C2833;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -114,6 +117,9 @@ body{
 .social a:nth-child(3){
     color: black;
 }
+.social a:nth-child(3){
+    color: #0177B5;
+}
 .social small{
     padding-top: 3vh;
     padding-right: 30px;
@@ -171,178 +177,10 @@ body{
     100% {margin-top:0px;}
 }
 
-@media only screen and (min-width:2560px){
-    .home h1{
-        font-family:inherit;
-        font-size: 50px;
-        width: 100%;
-        color: white;
-        padding-top: 40vh;
-        padding-left: 10vh;
-        letter-spacing: 2px;
-    }
-    .home p{
-        font-family: inherit;
-        font-size: 70px;
-        width: 100%;
-        color:#E55968;
-        padding-top: 0;
-        padding-left: 10vh;
-        letter-spacing: 2px;
-    }
-
-
-    .content {
-        width: 100vw;
-        height: 100vh;
-        align-items: center;
-        justify-content: left;
-    }
-    .slider-wrapper {
-        font-size: 40px;
-        color:#aaa;
-        font-weight: bold;
-        text-transform: uppercase;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        padding-left: 10vh;
-    }
-    .slider{
-        height: 50px;
-        padding-left:15px;
-        overflow: hidden;
-    }
-    .slider div {
-        color:#fff;
-        height: 50px;
-        margin-bottom: 50px;
-        padding: 2px 15px;
-        text-align: center;
-        box-sizing: border-box;
-    }
-    .slider-text1 {
-        background: lightgreen;
-        animation: slide 5s linear infinite;
-    }
-    .slider-text2 {
-        background: skyblue;
-    }
-    .slider-text3 {
-        background: #C38EC7;
-    }
-    @keyframes slide {
-        0% {margin-top:-300px;}
-        5% {margin-top:-200px;}
-        33% {margin-top:-200px;}
-        38% {margin-top:-100px;}
-        66% {margin-top:-100px;}
-        71% {margin-top:0px;}
-        100% {margin-top:0px;}
-    }
-} 
-
-@media only screen and (max-width:1680px){
-    .home h1{
-        font-family:inherit;
-        font-size: 50px;
-        width: 100%;
-        color: white;
-        padding-top: 50vh;
-        padding-left: 10vh;
-        letter-spacing: 2px;
-    }
-    .home p{
-        font-family: inherit;
-        font-size: 70px;
-        width: 100%;
-        color:#E55968;
-        padding-top: 0;
-        padding-left: 10vh;
-        letter-spacing: 2px;
-    }
-
-
-    .content {
-        width: 100vw;
-        height: 100vh;
-        align-items: center;
-        justify-content: left;
-    }
-    .slider-wrapper {
-        font-size: 40px;
-        color:#aaa;
-        font-weight: bold;
-        text-transform: uppercase;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        padding-left: 10vh;
-    }
-    .slider{
-        height: 50px;
-        padding-left:15px;
-        overflow: hidden;
-    }
-    .slider div {
-        color:#fff;
-        height: 50px;
-        margin-bottom: 50px;
-        padding: 2px 15px;
-        text-align: center;
-        box-sizing: border-box;
-    }
-    .slider-text1 {
-        background: lightgreen;
-        animation: slide 5s linear infinite;
-    }
-    .slider-text2 {
-        background: skyblue;
-    }
-    .slider-text3 {
-        background: #C38EC7;
-    }
-    @keyframes slide {
-        0% {margin-top:-300px;}
-        5% {margin-top:-200px;}
-        33% {margin-top:-200px;}
-        38% {margin-top:-100px;}
-        66% {margin-top:-100px;}
-        71% {margin-top:0px;}
-        100% {margin-top:0px;}
-    }
-} 
-
-@media only screen and (max-width:245px){
-    .logo{
-        padding-top: 15px;
-        width: 70px;
-        height: 70px;
-        padding-left: -3px;
-    }
-    .logo h1{
-        padding-left: 30px;
-    }
-    .menu{
-        display: flex;
-        position: fixed;
-        justify-content: space-around;
-        align-items:center;
-        width: 100%;
-        background-color: transparent;
-    
-    }
-    .menu a{
-        color: black;
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: 300;
-        padding: 15px 0;
-        
-    }
+@media only screen and (min-width:246px){
     .home{
         /* background: url('C:/spd/pics/logo.png'), linear-gradient(to bottom left, white 50%,#1C2833  50%); */
-        background: url('/pics/logo.png'), linear-gradient(to bottom left, white 50%,#1C2833  50%);
+        background: url('/spd/pics/logo.png'),#1C2833;
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
@@ -351,11 +189,11 @@ body{
     }
     .home h1{
         font-family:inherit;
-        font-size: 50px;
+        font-size: 30px;
         width: 100%;
         color: white;
-        padding-top: 40vh;
-        padding-left: 10vh;
+        padding-top: 25vh;
+        padding-left: 7vh;
         letter-spacing: 2px;
     }
     .home p{
@@ -364,11 +202,38 @@ body{
         width: 100%;
         color:#E55968;
         padding-top: 0;
-        padding-left: 10vh;
+        padding-left: 7vh;
         letter-spacing: 2px;
     }
-
-
+    .projects{
+        /* background:linear-gradient(to bottom right, aquamarine 50%, white 50%); */
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        background-color: #58D68D;
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+    }
+    .projects h1{
+        font-family: inherit;
+        padding-left: 100px;
+        padding-top: 150px;
+        font-size: 6em;
+        letter-spacing: 2px;
+    }
+    .photography{
+        background-color:#8E44AD;
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+    }
+    .photography h1{
+        font-family: inherit;
+        padding-left: 100px;
+        padding-top: 150px;
+        font-size: 6em;
+        letter-spacing: 2px;
+    }
     .content {
         width: 100vw;
         height: 100vh;
@@ -383,7 +248,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        padding-left: 10vh;
+        padding-left: 7vh;
     }
     .slider{
         height: 50px;
@@ -417,4 +282,4 @@ body{
         71% {margin-top:0px;}
         100% {margin-top:0px;}
     }
-} 
+}

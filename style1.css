@@ -100,7 +100,7 @@ body{
     padding-top: 1.5vh;
     letter-spacing: 20px;
     font-size: 30px;
-    color: #EE4B5F;
+    color: #0177B5 ;
     text-decoration: none;
 }
 .social a:nth-child(2){
@@ -110,7 +110,10 @@ body{
     color: black;
 }
 .social a:nth-child(3){
-    color: #0177B5;
+    color: #EE4B5F;
+}
+.social a:nth-child(4){
+    color: #000;
 }
 .social small{
     padding-top: 3vh;
@@ -195,7 +198,7 @@ body{
         align-items: center;
         justify-content: center;
         padding-top: 43vh;
-        padding-left: 3vh;
+        padding-left: 2vh;
         padding-right: 2vh;
         letter-spacing: 2px;
     }
@@ -205,7 +208,7 @@ body{
         width: 100%;
         color:#E55968;
         padding-top: 0;
-        padding-left: 3vh;
+        padding-left: 2vh;
         letter-spacing: 2px;
     }
     .projects{
@@ -241,28 +244,28 @@ body{
         width: 100vw;
         height: 100vh;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
     }
     .slider-wrapper {
-        font-size: 20px;
+        font-size: 25px;
         color:#aaa;
         font-weight: bold;
         text-transform: uppercase;
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        padding-left: 3vh;
+        padding-left: 2vh;
     }
     .slider{
         height: 50px;
-        padding-left:15px;
+        padding-left: 15px;
         overflow: hidden;
     }
     .slider div {
         color:#fff;
         height: 50px;
         margin-bottom: 50px;
-        padding: 1px 15px;
+        padding: 10px 15px;
         text-align: center;
         box-sizing: border-box;
     }

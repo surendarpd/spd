@@ -19,7 +19,7 @@ body{
     justify-content: space-around;
     align-items:center;
     width: 100%;
-    background-color: transparent;
+    background-color: black;
 
 }
 .menu a{
@@ -34,8 +34,8 @@ body{
     color: white;
 }
 .home{
-    /* background: url('C:/spd/pics/logo.png'), linear-gradient(to bottom left, white 50%,#1C2833  50%); */
-    background: url('/spd/pics/logo.png'),#1C2833;
+    /* background: url('C:/spd/pics/logo.png'), linear-gradient(to bottom left, white 50%,black  50%); */
+    background: url('/spd/pics/logo.png'),black;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -170,15 +170,16 @@ body{
 }
 @media only screen and (max-width:769px){
     .menu a{
-    font-size: 20px;
+    font-size: 30px;
     }
     .menu h1{
         color: white;
+        font-size: 30px;
         
     }
     .home{
         
-        background: url('/spd/pics/logo.png'),#1C2833;
+        background: url('/spd/pics/logo.png'),black;
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
@@ -187,19 +188,19 @@ body{
     }
     .home h1{
         font-family:inherit;
-        font-size: 35px;
+        font-size: 4em;
         width: 100%;
         color: white;
         align-items: center;
         justify-content: center;
-        padding-top: 36vh;
+        padding-top: 40vh;
         padding-left: 2vh;
         padding-right: 2vh;
         letter-spacing: 2px;
     }
     .home p{
         font-family: inherit;
-        font-size: 50px;
+        font-size: 5em;
         width: 100%;
         color:#E55968;
         padding-top: 0;
@@ -215,24 +216,54 @@ body{
     }
     .projects h1{
         font-family: inherit;
-        padding-left: 6vh;
-        padding-top: 50px;
-        font-size: 2em;
+        padding-left: 2vh;
+        padding-top: 170px;
+        font-size: 3em;
         letter-spacing: 2px;
     }
     .photography{
-        background-color:#8E44AD;
+        background-color:#D98880;
         display: inline-block;
         width: 100%;
         height: 100vh;
     }
     .photography h1{
         font-family: inherit;
-        padding-left: 6vh;
-        padding-top: 50px;
-        font-size: 2em;
+        padding-left: 2vh;
+        padding-top: 170px;
+        font-size: 3em;
         letter-spacing: 2px;
     }
+    .social{
+        background-color: #17202A;
+        display: inline-block;
+        width: 100%;
+        height: 6vh;
+    }
+    .social a{
+        float: right;
+        padding-top: 1.8vh;
+        letter-spacing: 20px;
+        font-size: 30px;
+        color: #0177B5 ;
+        text-decoration: none;
+    }
+    .social a:nth-child(2){
+        color: white;
+    }
+    .social a:nth-child(3){
+        color: #EE4B5F;
+    }
+    .social a:nth-child(4){
+        color: #000;
+    }
+    .social small{
+        padding-top: 2.7vh;
+        padding-right: 30px;
+        float:right;
+        color: white;
+    }
+    
     .content {
         width: 100vw;
         height: 100vh;
@@ -240,7 +271,7 @@ body{
         justify-content: left;
     }
     .slider-wrapper {
-        font-size: 35px;
+        font-size: 3.1em;
         color:#aaa;
         font-weight: bold;
         text-transform: uppercase;
@@ -258,7 +289,7 @@ body{
         color:#e0a557;
         height: 50px;
         margin-bottom: 50px;
-        padding: 4px 15px;
+        padding: 0px 15px;
         text-align: center;
         box-sizing: border-box;
     }
@@ -291,7 +322,7 @@ body{
         font-size: 25px;
     }
     .home{
-        background: url('/spd/pics/logo.png'),#1C2833;
+        background: url('/spd/pics/logo.png'),black;
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
@@ -300,7 +331,7 @@ body{
     }
     .home h1{
         font-family:inherit;
-        font-size: 25px;
+        font-size: 2.1em;
         width: 100%;
         color: white;
         align-items: center;
@@ -312,7 +343,7 @@ body{
     }
     .home p{
         font-family: inherit;
-        font-size: 40px;
+        font-size: 2.3em;
         width: 100%;
         color:#E55968;
         padding-top: 0;
@@ -327,21 +358,21 @@ body{
     }
     .projects h1{
         font-family: inherit;
-        padding-left: 6vh;
-        padding-top: 50px;
+        padding-left: 2vh;
+        padding-top: 110px;
         font-size: 2em;
         letter-spacing: 2px;
     }
     .photography{
-        background-color:#8E44AD;
+        background-color:#D98880;
         display: inline-block;
         width: 100%;
         height: 100vh;
     }
     .photography h1{
         font-family: inherit;
-        padding-left: 6vh;
-        padding-top: 50px;
+        padding-left: 2vh;
+        padding-top: 110px;
         font-size: 2em;
         letter-spacing: 2px;
     }
@@ -381,7 +412,7 @@ body{
         justify-content: left;
     }
     .slider-wrapper {
-        font-size: 25px;
+        font-size: 1.5em;
         color:#aaa;
         font-weight: bold;
         text-transform: uppercase;
@@ -432,7 +463,7 @@ body{
     margin-right: 30vh; 
     }
     .home{
-        background: url('/spd/pics/logo.png'),#1C2833;
+        background: url('/spd/pics/logo.png'),black;
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
@@ -474,7 +505,7 @@ body{
         letter-spacing: 2px;
     }
     .photography{
-        background-color:#8E44AD;
+        background-color:#D98880;
         display: inline-block;
         width: 100%;
         height: 100vh;
@@ -546,7 +577,7 @@ body{
     }
     .home{
         
-        background: url('/spd/pics/logo.png'),#1C2833;
+        background: url('/spd/pics/logo.png'),black;
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
@@ -555,7 +586,7 @@ body{
     }
     .home h1{
         font-family:inherit;
-        font-size: 20px;
+        font-size: 1.9em;
         width: 100%;
         color: white;
         align-items: center;
@@ -567,7 +598,7 @@ body{
     }
     .home p{
         font-family: inherit;
-        font-size: 35px;
+        font-size: 2.1em;
         width: 100%;
         color:#E55968;
         padding-top: 0;
@@ -583,21 +614,21 @@ body{
     }
     .projects h1{
         font-family: inherit;
-        padding-left: 6vh;
-        padding-top: 50px;
+        padding-left: 2vh;
+        padding-top: 110px;
         font-size: 2em;
         letter-spacing: 2px;
     }
     .photography{
-        background-color:#8E44AD;
+        background-color:#D98880;
         display: inline-block;
         width: 100%;
         height: 100vh;
     }
     .photography h1{
         font-family: inherit;
-        padding-left: 6vh;
-        padding-top: 50px;
+        padding-left: 2vh;
+        padding-top: 110px;
         font-size: 2em;
         letter-spacing: 2px;
     }
@@ -637,7 +668,7 @@ body{
         justify-content: left;
     }
     .slider-wrapper {
-        font-size: 20px;
+        font-size: 1.2em;
         color:#aaa;
         font-weight: bold;
         text-transform: uppercase;
@@ -689,7 +720,7 @@ body{
         
     }
     .home{
-        background: url('/spd/pics/logo.png'),#1C2833;
+        background: url('/spd/pics/logo.png'),black;
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
@@ -698,7 +729,7 @@ body{
     }
     .home h1{
         font-family:inherit;
-        font-size: 20px;
+        font-size: 1.5em;
         width: 100%;
         color: white;
         align-items: center;
@@ -710,7 +741,7 @@ body{
     }
     .home p{
         font-family: inherit;
-        font-size: 34px;
+        font-size: 1.8em;
         width: 100%;
         color:#E55968;
         padding-top: 0;
@@ -725,21 +756,21 @@ body{
     }
     .projects h1{
         font-family: inherit;
-        padding-left: 6vh;
-        padding-top: 50px;
+        padding-left: 2vh;
+        padding-top: 110px;
         font-size: 2em;
         letter-spacing: 2px;
     }
     .photography{
-        background-color:#8E44AD;
+        background-color:#D98880;
         display: inline-block;
         width: 100%;
         height: 100vh;
     }
     .photography h1{
         font-family: inherit;
-        padding-left: 6vh;
-        padding-top: 50px;
+        padding-left: 2vh;
+        padding-top: 110px;
         font-size: 2em;
         letter-spacing: 2px;
     }
@@ -779,7 +810,7 @@ body{
         justify-content: left;
     }
     .slider-wrapper {
-        font-size: 20px;
+        font-size: 1.1em;
         color:#aaa;
         font-weight: bold;
         text-transform: uppercase;
@@ -831,7 +862,7 @@ body{
     }
     .home{
         
-        background: url('/spd/pics/logo.png'),#1C2833;
+        background: url('/spd/pics/logo.png'),black;
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
@@ -874,7 +905,7 @@ body{
         letter-spacing: 2px;
     }
     .photography{
-        background-color:#8E44AD;
+        background-color:#D98880;
         display: inline-block;
         width: 100%;
         height: 100vh;

@@ -132,7 +132,13 @@ body{
     font-size: 3em;
     font-weight: 300;
     letter-spacing: 10px;
-
+}
+.show__image{
+    padding-top: 15px;
+}
+.show__image a{
+    text-decoration: none;
+    color: white;
 }
 .social{
     background-color: #17202A;

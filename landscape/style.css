@@ -1,0 +1,21 @@
+body{
+    /* width: 100%; */
+    font-family:'Montserrat', sans-serif;
+    background-color: #34495E;
+    background-image: url('/spd/pics/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.gallery{
+    margin: 37px 37px;
+}
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+.gallery img:hover{
+    /* filter: grayscale(100%); */
+    transform: scale(1.1);
+}
